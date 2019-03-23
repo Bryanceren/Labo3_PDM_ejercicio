@@ -9,14 +9,38 @@
     tools:context=".NewActivity">
 
     <TextView
-        android:id="@+id/txtnew"
+        android:id="@+id/txt_new_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="prueba"/>
-    <Button
+        android:text="prueba"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/txt_new_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="prueba"/>
+    <TextView
+        android:id="@+id/txt_new_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="prueba"/>
+    <TextView
+        android:id="@+id/txt_new_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textSize="30sp"
+        android:text="prueba"/>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:id="@+id/submit2"
-        android:text="share"/>
+        android:src="@drawable/share"/>
 </LinearLayout>
